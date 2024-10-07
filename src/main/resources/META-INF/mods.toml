@@ -1,0 +1,49 @@
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader = "javafml" #mandatory
+
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+loaderVersion = "[47,)" # This allows all versions from 47.x.x and above
+
+# The license for your mod
+license = "MIT"  # or choose your license
+
+# A URL to refer people to when problems occur with this mod
+issueTrackerURL="https://example.com/issues" #optional but recommended
+
+[[mods]]
+# The modid of the mod
+modId = "test"  # Replace "test" with your actual mod ID
+# The version number of the mod
+version = "1.0.0"  # The current version of your mod
+# A display name for the mod
+displayName = "Test Mod"  # The display name of your mod
+# A URL for the "homepage" for this mod, displayed in the mod UI
+displayURL="https://example.com"  # optional
+
+# A file name (in the root of the mod JAR) containing a logo for display
+logoFile="test.png"  # optional, only if you have a logo file in your resources
+
+# A text field displayed in the mod UI
+credits="Thanks to the Minecraft modding community"  # optional
+authors = "Your Name"  # optional, the name(s) of the mod author(s)
+
+# The description text for the mod (multi line!)
+description = '''
+This is a test mod that adds custom ores and blocks.
+'''
+
+# Forge dependency
+[[dependencies."test"]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"  # Replace with appropriate Forge version range
+ordering = "NONE"
+side = "BOTH"
+
+# Minecraft dependency
+[[dependencies."test"]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21.1,1.22)"  # This should match the Minecraft version you're targeting
+ordering = "NONE"
+side = "BOTH"

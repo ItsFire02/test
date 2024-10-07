@@ -1,0 +1,24 @@
+/time set 0
+/gamemode survival
+/gamemode creative
+/time set 0
+/gamerule doDaylightCycle false
+/weather clear
+/gamerule doWeatherCycle false
+/gamemode survival
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/placefeature test:sapphire_ore
+/gamemode spectator
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/time set 0
+/summon test:rhino
